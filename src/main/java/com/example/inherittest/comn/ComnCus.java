@@ -1,5 +1,6 @@
 package com.example.inherittest.comn;
 
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
