@@ -15,6 +15,8 @@ public class TransactionTest {
         log.info("TransactionDto: {}",transactionDto);
 
         TransactionCus transactionCus = transactionDto;
+        transactionCus.setId(3);
         log.info("TransactionCus: {}",transactionCus);
+        log.info("TransactionDto: {}",transactionDto);
     }
 }

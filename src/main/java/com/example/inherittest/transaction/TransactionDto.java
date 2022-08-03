@@ -10,20 +10,20 @@ import lombok.ToString;
 public class TransactionDto extends TransactionCus{
 
     public ComnDto getComn(){
-        return (ComnDto) super.comn;
+        return (ComnDto) this.comn;
     }
 
 
-    public void setId(int id) {
-        super.id = id;
-    }
+    // public void setId(int id) {
+    //     this.id = id;
+    // }
 
     public void setName(String name) {
-        super.name = name;
+        this.name = name;
     }
 
     public void setComn(ComnDto comn) {
-        super.comn = comn;
+        this.comn = comn;
     }
 
     @Builder
@@ -32,9 +32,9 @@ public class TransactionDto extends TransactionCus{
     }
 
     public String toString() {
-        return "id='" + super.getId() + '\'' +
-                ", name=" + super.getName() + '\'' +
-                ", comn=" + super.getComn() ;
+        return "id='" + this.getId() + '\'' +
+                ", name=" + this.getName() + '\'' +
+                ", comn=" + this.getComn() ;
     }
 
     

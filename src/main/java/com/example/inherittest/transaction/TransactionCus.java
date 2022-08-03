@@ -17,5 +17,10 @@ public class TransactionCus {
     protected int id;
     protected String name;
     protected ComnCus comn;
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    
 
 }

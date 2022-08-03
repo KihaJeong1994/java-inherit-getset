@@ -6,7 +6,7 @@ import lombok.ToString;
 public class ComnDto extends ComnCus{
     
     public void setAddress(String address){
-        super.address = address;
+        this.address = address;
     }
 
     @Builder
